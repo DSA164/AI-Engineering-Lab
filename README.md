@@ -92,7 +92,7 @@ After completing this program the goal is to be able to build:
 
 The complete learning roadmap for the **AI Engineering program (25 weeks)** is available here:
 
-➡️ [Learning Roadmap](learning_roadmap.md)
+➡️ [Learning Roadmap](Learning_roadmap.md)
 
 This document describes:
 
@@ -107,7 +107,7 @@ This document describes:
 
 The estimated timeline and workload for each project are tracked here:
 
-➡️ [Timing Table](timing_table.md)
+➡️ [Timing Table](Timing_table.md)
 
 This table includes:
 
