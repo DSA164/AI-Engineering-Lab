@@ -1,5 +1,14 @@
 
-# AI Engineering Lab 
+# AI Engineering Lab
+
+![Python](https://img.shields.io/badge/Python-3.11+-blue)
+![Docker](https://img.shields.io/badge/Docker-ready-blue)
+![LLM](https://img.shields.io/badge/AI-LLM-orange)
+![RAG](https://img.shields.io/badge/AI-RAG-green)
+![Agents](https://img.shields.io/badge/AI-Agents-purple)
+![Robotics](https://img.shields.io/badge/AI-Robotics-red)
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ## Portfolio of AI engineering projects.
 
