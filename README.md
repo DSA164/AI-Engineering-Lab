@@ -82,3 +82,38 @@ After completing this program the goal is to be able to build:
 	•	multimodal AI systems
 	•	AI-powered robotics
 	•	full AI platforms
+
+
+---
+
+# Program Planning
+
+## Learning Roadmap
+
+The complete learning roadmap for the **AI Engineering program (25 weeks)** is available here:
+
+➡️ [Learning Roadmap](learning_roadmap.md)
+
+This document describes:
+
+- the 6 learning phases
+- weekly objectives
+- project milestones
+- expected technical skills
+
+---
+
+## Program Timing
+
+The estimated timeline and workload for each project are tracked here:
+
+➡️ [Timing Table](timing_table.md)
+
+This table includes:
+
+- estimated hours per project
+- project order
+- learning progress
+- global completion estimate
+
+---
