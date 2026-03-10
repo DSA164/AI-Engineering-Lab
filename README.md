@@ -20,7 +20,7 @@ This learning roadmap was designed from scratch by myself, with AI used only as 
 
 This portfolio contains a structured sequence of projects designed to build real-world AI engineering skills.
 
-|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+
 | PROJECTS                                                                                                  | TOPICS                                            |
 |-----------------------------------------------------------------------------------------------------------|---------------------------------------------------|
 | [2026_project_01--llm_playground](https://github.com/DSA164/2026_project_01--llm_playground)              | LLM sampling, logits, temperature, top-k, top-p   |
@@ -33,7 +33,7 @@ This portfolio contains a structured sequence of projects designed to build real
 | [2026_project_08--multimodal_assistant](https://github.com/DSA164/2026_project_08--multimodal_assistant)  | Voice assistant (Whisper + LLM + TTS)             |
 | [2026_project_09--robot_ai_system](https://github.com/DSA164/2026_project_09--robot_ai_system)            | LLM-powered robot                                 |
 | [2026_project_10--ai_platform](https://github.com/DSA164/2026_project_10--ai_platform)                    | Complete AI platform                              |
-|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+
 
 ⸻
 
@@ -51,7 +51,6 @@ Each project contains its own progress tracking and scoring system.
 
 ## Scoring System
 
-|-----------------------|--------|
 | Category              | Points |
 |-----------------------|--------|
 | Theory understanding  | 20     |
@@ -61,7 +60,7 @@ Each project contains its own progress tracking and scoring system.
 | Architecture          | 10     |
 |-----------------------|--------|
 |**Total per project**  |**100** |
-|-----------------------|--------|
+
 
 ⸻
 
