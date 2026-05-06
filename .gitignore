@@ -1,0 +1,9 @@
+
+# macOS
+.DS_Store
+
+# Local restructure backups
+.restructure_backup_*/
+
+# Local helper scripts
+restructure_ai_engineering_lab*.sh

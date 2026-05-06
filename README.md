@@ -1,119 +1,73 @@
-
 # AI Engineering Lab
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue)
-![Docker](https://img.shields.io/badge/Docker-ready-blue)
-![LLM](https://img.shields.io/badge/AI-LLM-orange)
-![RAG](https://img.shields.io/badge/AI-RAG-green)
-![Agents](https://img.shields.io/badge/AI-Agents-purple)
-![Robotics](https://img.shields.io/badge/AI-Robotics-red)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
+Personal AI engineering learning lab.
 
-## Portfolio of AI engineering projects.
+This repository organizes a 2026 learning path toward practical AI engineering, with a strong focus on:
 
-This repository documents my AI Engineering learning journey.
+- local LLMs;
+- workflow automation;
+- RAG;
+- agents;
+- business watch systems;
+- multimodal AI;
+- robotics;
+- deployable AI platforms.
 
-The objective of this program is to progressively develop expertise in:
-	•	Local LLM infrastructure
-	•	Retrieval Augmented Generation (RAG)
-	•	AI agents
-	•	Multimodal AI systems
-	•	Robotics powered by LLM reasoning
+## Updated project sequence
 
-This learning roadmap was designed from scratch by myself, with AI used only as a research and ideation assistant.
+| Order | Project | Focus |
+|---:|---|---|
+| 01 | `2026_project_01--llm_playground` | LLM sampling, inference parameters, basic experiments |
+| 02 | `2026_project_02--local_llm_server` | Local LLM API server, OpenAI-compatible patterns |
+| 03 | `2026_project_03--workflow_automation_lab` | n8n, JS Code Nodes, ingestion, parsing, normalization, scoring, alerts |
+| 04 | `2026_project_04--rag_system` | Basic Retrieval Augmented Generation |
+| 05 | `2026_project_05--rag_enterprise` | Production-grade RAG patterns |
+| 06 | `2026_project_06--ai_agents_lab` | Agents, tools, state, human-in-the-loop |
+| 07 | `2026_project_07--business_watch_agent` | Watch systems combining workflows, memory, retrieval and agents |
+| 08 | `2026_project_08--vision_ai_lab` | Computer vision foundations |
+| 09 | `2026_project_09--multimodal_assistant` | Multimodal assistant experiments |
+| 10 | `2026_project_10--robot_ai_system` | Robotics AI experiments |
+| 11 | `2026_project_11--ai_platform` | Integrated local AI platform |
 
-⸻
+## Learning logic
 
-## 2026 AI Engineering Program
+```text
+LLM foundations
+  ↓
+workflow automation
+  ↓
+RAG systems
+  ↓
+agents
+  ↓
+business watch
+  ↓
+vision / multimodal / robotics
+  ↓
+AI platform
+```
 
-This portfolio contains a structured sequence of projects designed to build real-world AI engineering skills.
+## Why workflow automation was added before RAG
 
+RAG and agents require solid data-pipeline thinking.
 
-| PROJECTS                                                                                                  | TOPICS                                            |
-|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| [2026_project_01--llm_playground](https://github.com/DSA164/2026_project_01--llm_playground)              | LLM sampling, logits, temperature, top-k, top-p   |
-| [2026_project_02--local_llm_server](https://github.com/DSA164/2026_project_02--local_llm_server)          | Local LLM inference server                        |
-| [2026_project_03--rag_system](https://github.com/DSA164/2026_project_03--rag_system)                      | Basic Retrieval Augmented Generation              |
-| [2026_project_04--rag_enterprise](https://github.com/DSA164/2026_project_04--rag_enterprise)              | Advanced RAG architecture                         |
-| [2026_project_05--ai_agents_lab](https://github.com/DSA164/2026_project_05--ai_agents_lab)                | LLM agents with tools                             |
-| [2026_project_06--financial_agent](https://github.com/DSA164/2026_project_06--financial_agent)            | AI financial analysis agent                       |
-| [2026_project_07--vision_ai_lab](https://github.com/DSA164/2026_project_07--vision_ai_lab)                | Computer vision with YOLO                         |
-| [2026_project_08--multimodal_assistant](https://github.com/DSA164/2026_project_08--multimodal_assistant)  | Voice assistant (Whisper + LLM + TTS)             |
-| [2026_project_09--robot_ai_system](https://github.com/DSA164/2026_project_09--robot_ai_system)            | LLM-powered robot                                 |
-| [2026_project_10--ai_platform](https://github.com/DSA164/2026_project_10--ai_platform)                    | Complete AI platform                              |
+Before building retrieval systems, it is useful to learn how to:
 
+- fetch data;
+- parse sources;
+- normalize records;
+- deduplicate;
+- score;
+- store;
+- alert;
+- manage uncertainty.
 
-⸻
+This is the role of `2026_project_03--workflow_automation_lab`.
 
-## Learning methodology
+Its first use case is `BD Kids Hunter`.
 
-This program follows a project-driven learning approach:
-	•	short theoretical learning cycles
-	•	rapid implementation
-	•	architecture-first thinking
-	•	iterative improvements
+## Documentation
 
-Each project contains its own progress tracking and scoring system.
-
-⸻
-
-## Scoring System
-
-| Category              | Points |
-|-----------------------|--------|
-| Theory understanding  | 20     |
-| Code implementation   | 20     |
-| Functional project    | 40     |
-| Documentation         | 10     |
-| Architecture          | 10     |
-|-----------------------|--------|
-|**Total per project**  |**100** |
-
-
-⸻
-
-## Final Objective
-
-After completing this program the goal is to be able to build:
-	•	local LLM infrastructure
-	•	production-grade RAG systems
-	•	AI agents with tools
-	•	multimodal AI systems
-	•	AI-powered robotics
-	•	full AI platforms
-
-
----
-
-# Program Planning
-
-## Learning Roadmap
-
-The complete learning roadmap for the **AI Engineering program (25 weeks)** is available here:
-
-➡️ [Learning Roadmap](Learning_roadmap.md)
-
-This document describes:
-
-- the 6 learning phases
-- weekly objectives
-- project milestones
-- expected technical skills
-
----
-
-## Program Timing
-
-The estimated timeline and workload for each project are tracked here:
-
-➡️ [Timing Table](Timing_table.md)
-
-This table includes:
-
-- estimated hours per project
-- project order
-- learning progress
-- global completion estimate
-
----
+- `Learning_roadmap.md`
+- `Timing_table.md`
+- `docs/project_taxonomy.md`
