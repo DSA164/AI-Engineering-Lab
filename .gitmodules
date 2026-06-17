@@ -1,0 +1,33 @@
+[submodule "2026_project_01--llm_playground"]
+	path = 2026_project_01--llm_playground
+	url = https://github.com/DSA164/2026_project_01--llm_playground.git
+[submodule "2026_project_02--local_llm_server"]
+	path = 2026_project_02--local_llm_server
+	url = https://github.com/DSA164/2026_project_02--local_llm_server.git
+[submodule "2026_project_03--workflow_automation_lab"]
+	path = 2026_project_03--workflow_automation_lab
+	url = https://github.com/DSA164/2026_project_03--workflow_automation_lab.git
+[submodule "2026_project_04--rag_system"]
+	path = 2026_project_04--rag_system
+	url = https://github.com/DSA164/2026_project_03--rag_system.git
+[submodule "2026_project_05--rag_enterprise"]
+	path = 2026_project_05--rag_enterprise
+	url = https://github.com/DSA164/2026_project_04--rag_enterprise.git
+[submodule "2026_project_06--ai_agents_lab"]
+	path = 2026_project_06--ai_agents_lab
+	url = https://github.com/DSA164/2026_project_05--ai_agents_lab.git
+[submodule "2026_project_07--business_watch_agent"]
+	path = 2026_project_07--business_watch_agent
+	url = https://github.com/DSA164/2026_project_06--financial_agent.git
+[submodule "2026_project_08--vision_ai_lab"]
+	path = 2026_project_08--vision_ai_lab
+	url = https://github.com/DSA164/2026_project_07--vision_ai_lab.git
+[submodule "2026_project_09--multimodal_assistant"]
+	path = 2026_project_09--multimodal_assistant
+	url = https://github.com/DSA164/2026_project_08--multimodal_assistant.git
+[submodule "2026_project_10--robot_ai_system"]
+	path = 2026_project_10--robot_ai_system
+	url = https://github.com/DSA164/2026_project_09--robot_ai_system.git
+[submodule "2026_project_11--ai_platform"]
+	path = 2026_project_11--ai_platform
+	url = https://github.com/DSA164/2026_project_10--ai_platform.git
