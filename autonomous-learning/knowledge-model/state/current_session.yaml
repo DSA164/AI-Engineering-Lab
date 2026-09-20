@@ -1,0 +1,19 @@
+version: "1.0"
+current_module: LAB01
+current_step: LAB01.01
+objective: "Créer un environnement uv et comprendre pyproject.toml avant le serveur réel."
+previous_completed: [M01, M02A, M02B]
+next_action:
+  type: exercise
+  instructions:
+    - "Créer labs/02-http-api."
+    - "Exécuter uv init."
+    - "Ajouter fastapi, uvicorn et requests."
+    - "Lire et expliquer pyproject.toml avant server.py."
+do_not_skip: [uv.project, pyproject.dependencies]
+do_not_introduce_yet: [python.async, real_llm, docker, model_router_implementation]
+teaching_policy:
+  no_vibecoding: true
+  student_writes_first: true
+  hints_before_solution: true
+  capitalize_at_end_of_block: true

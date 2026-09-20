@@ -1,0 +1,19 @@
+version: "1.0"
+entity_types: [Concept, Module, Exercise, Evidence, Misconception, Artifact]
+relation_types: [prerequisite_of, teaches, assessed_by, evidenced_by, has_misconception, documented_by]
+concepts:
+  python.class: {label: "Classe Python", domain: python, prerequisites: []}
+  python.inheritance: {label: "Héritage", domain: python, prerequisites: [python.class]}
+  python.polymorphism: {label: "Polymorphisme", domain: python, prerequisites: [python.inheritance]}
+  python.exception_propagation: {label: "Propagation des exceptions", domain: python, prerequisites: []}
+  http.request: {label: "Requête HTTP", domain: http, prerequisites: []}
+  http.response: {label: "Réponse HTTP", domain: http, prerequisites: [http.request]}
+  http.status_code: {label: "Codes de statut HTTP", domain: http, prerequisites: [http.response]}
+  requests.raise_for_status: {label: "raise_for_status()", domain: python-http, prerequisites: [http.status_code]}
+  api.input_output_schema: {label: "Contrats entrée/sortie API", domain: api, prerequisites: [http.request, http.response]}
+  pydantic.validation: {label: "Validation Pydantic", domain: api, prerequisites: [api.input_output_schema]}
+  api.business_validation: {label: "Validation métier", domain: api, prerequisites: [pydantic.validation]}
+  fastapi.route: {label: "Route FastAPI", domain: api, prerequisites: [http.request]}
+  uvicorn.runtime: {label: "Exécution Uvicorn", domain: api, prerequisites: [fastapi.route]}
+  uv.project: {label: "Projet Python avec uv", domain: tooling, prerequisites: []}
+  python.async: {label: "async / await", domain: python, prerequisites: []}

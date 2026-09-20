@@ -1,0 +1,28 @@
+version: "1.0"
+modules:
+  - id: M01
+    name: "POO appliquée à ModelBackend"
+    status: completed
+    requires: []
+    teaches: [python.class, python.inheritance, python.polymorphism]
+  - id: M02A
+    name: "HTTP, JSON et client API"
+    status: completed
+    requires: [M01]
+    teaches: [http.request, http.response, http.status_code, requests.raise_for_status, python.exception_propagation]
+  - id: M02B
+    name: "Serveur FastAPI / Pydantic"
+    status: completed
+    requires: [M02A]
+    teaches: [fastapi.route, api.input_output_schema, pydantic.validation, api.business_validation, uvicorn.runtime]
+  - id: LAB01
+    name: "API locale réelle"
+    status: next
+    requires: [M02B]
+    teaches: [uv.project, uvicorn.runtime]
+    steps:
+      - {id: LAB01.01, name: "Initialiser uv et comprendre pyproject.toml"}
+      - {id: LAB01.02, name: "Écrire server.py"}
+      - {id: LAB01.03, name: "Tester localhost vers localhost"}
+      - {id: LAB01.04, name: "Écrire le client réel"}
+      - {id: LAB01.05, name: "Tester Mac vers PC RTX 4090"}

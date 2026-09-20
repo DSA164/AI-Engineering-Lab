@@ -1,0 +1,34 @@
+version: "1.0"
+concepts:
+  python.class: {status: mastered, evidence: ["ModelBackend construit et expliqué"]}
+  python.inheritance: {status: mastered, evidence: ["VLLMBackend avec héritage et super()"]}
+  python.polymorphism: {status: learned, evidence: ["ask_model(model: ModelBackend, prompt)"]}
+  python.exception_propagation: {status: learned, misconceptions: [MC_EXCEPTION_001]}
+  http.request: {status: mastered}
+  http.response: {status: mastered}
+  http.status_code: {status: learned}
+  requests.raise_for_status: {status: learned, misconceptions: [MC_HTTP_002]}
+  api.input_output_schema: {status: learned, misconceptions: [MC_API_001]}
+  pydantic.validation: {status: learned}
+  api.business_validation: {status: learned}
+  fastapi.route: {status: learned}
+  uvicorn.runtime: {status: learned_conceptually}
+  uv.project: {status: not_started}
+  python.async: {status: not_started}
+misconceptions:
+  MC_HTTP_001:
+    concept: http.request
+    observed: "HTTP initialement confondu avec une couche bas niveau et avec la route."
+    corrected: true
+  MC_HTTP_002:
+    concept: requests.raise_for_status
+    observed: "Tentative de if response.raise_for_status() et de récupérer sa valeur."
+    corrected: true
+  MC_EXCEPTION_001:
+    concept: python.exception_propagation
+    observed: "Tentative de return e au lieu de laisser l'exception remonter."
+    corrected: true
+  MC_API_001:
+    concept: api.input_output_schema
+    observed: "Confusion temporaire entre GenerateRequest et GenerateResponse."
+    corrected: true
